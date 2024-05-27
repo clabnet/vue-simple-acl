@@ -1,6 +1,6 @@
 {
   "name": "@clabnet/teo-vue-simple-acl",
-  "version": "2.3.0",
+  "version": "2.3.2",
   "description": "A simple unopinionated Vue plugin for managing user roles and permissions, access-control list (ACL) and role-based access control (RBAC).",
   "license": "MIT",
   "author": "Victory Osayi <lavictorybiz@gmail.com>",
