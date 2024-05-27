@@ -83,10 +83,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clabnet/vue-simple-acl"
+    "url": "git+https://github.com/clabnet/teo-vue-simple-acl"
   },
   "bugs": {
-    "url": "https://github.com/clabnet/vue-simple-acl/issues"
+    "url": "https://github.com/clabnet/teo-vue-simple-acl/issues"
   },
-  "homepage": "https://github.com/clabnet/vue-simple-acl#readme"
+  "homepage": "https://github.com/clabnet/teo-vue-simple-acl#readme"
 }
