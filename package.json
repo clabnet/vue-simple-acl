@@ -1,0 +1,92 @@
+{
+  "name": "@clabnet/teo-vue-simple-acl",
+  "version": "2.3.0",
+  "description": "A simple unopinionated Vue plugin for managing user roles and permissions, access-control list (ACL) and role-based access control (RBAC).",
+  "license": "MIT",
+  "author": "Victory Osayi <lavictorybiz@gmail.com>",
+  "contributors": [
+    {
+      "name": "Claudio Barca",
+      "email": "c.barca@libero.it",
+      "url": "https://github.com/clabnet"
+    }
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/main.es.js",
+      "require": "./dist/main.cjs.js"
+    }
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vue 2",
+    "vue3",
+    "vue 3",
+    "acl",
+    "rbac",
+    "vue-simple-acl",
+    "Access-Control List",
+    "Role Based Access Control",
+    "typescript"
+  ],
+  "main": "./dist/main.cjs.js",
+  "module": "./dist/main.es.js",
+  "typings": "./dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup && pnpm doc",
+    "build:watch": "tsup --watch",
+    "build:vite": "tsc && vite build",
+    "lint": "eslint src --ext .ts",
+    "doc": "typedoc",
+    "prettier": "prettier --write .",
+    "preview": "vite preview",
+    "test:coverage": "vitest run --coverage",
+    "test:run": "vitest run",
+    "test:watch": "vitest",
+    "npm-pack": "pnpm build && cd ./dist && npm pack",
+    "npm-publish": "pnpm build && cd ./dist && pnpm publish --access public --loglevel silly"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/luxon": "^3.3.0",
+    "@types/node": "^18.15.11",
+    "@vitest/coverage-c8": "^0.30.1",
+    "c8": "^7.13.0",
+    "picocolors": "^1.0.0",
+    "prettier": "^2.8.7",
+    "rollup-plugin-typescript-paths": "^1.4.0",
+    "tslib": "^2.5.0",
+    "tsup": "^6.7.0",
+    "typedoc": "^0.24.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.2.1",
+    "vite-plugin-progress": "^0.0.7",
+    "vitest": "^0.30.1",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/compiler-sfc": "^3.2.47",
+    "@vuedx/typecheck": "^0.7.6",
+    "@vuedx/typescript-plugin-vue": "^0.7.6",
+    "axios": "^1.3.5",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.38.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clabnet/vue-simple-acl"
+  },
+  "bugs": {
+    "url": "https://github.com/clabnet/vue-simple-acl/issues"
+  },
+  "homepage": "https://github.com/clabnet/vue-simple-acl#readme"
+}
