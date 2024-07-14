@@ -1,3 +1,8 @@
+# Disclaimer: 
+
+### This is a fork of code of [Victory Osayi](https://github.com/victorybiz). 
+#### This project is now in maintenance mode. Sorry but I won't be adding new features or actively maintaining the project as I have moved on to other projects and priorities.
+
 # Vue Simple ACL
 
 Test
